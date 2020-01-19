@@ -21,13 +21,13 @@
     <module>webapp</module>
   </modules>
 
- <!-- <distributionManagement>
+  <distributionManagement>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
-  </distributionManagement> -->
+  </distributionManagement> 
 
   <build>
     <plugins>
@@ -161,13 +161,7 @@
       </plugins>
     </pluginManagement>
   </build>
-  <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://54.210.171.27:8081/repository/hello-world/</url>
-        </repository>
-  </distributionManagement>
+  
   <dependencyManagement>
     <dependencies>
       <dependency>
